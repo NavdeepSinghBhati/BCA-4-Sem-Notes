@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bca4semnotes">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".COA_activities.Unit1_COA"></activity>
+        <activity android:name=".COA_activities.unit5_coa" />
+        <activity android:name=".COA_activities.unit4_coa" />
+        <activity android:name=".COA_activities.unit3_coa" />
+        <activity android:name=".COA_activities.unit2_coa" />
+        <activity android:name=".vb_activities.vbnet_Unit_5" />
+        <activity android:name=".vb_activities.vbnet_Unit_4" />
+        <activity android:name=".vb_activities.vbnet_Unit_3" />
+        <activity android:name=".vb_activities.vbnet_Unit_2" />
+        <activity android:name=".vb_activities.vbnet_Unit_1" />
+        <activity android:name=".OS_activities.os_unit_5" />
+        <activity android:name=".OS_activities.os_unit_4" />
+        <activity android:name=".OS_activities.os_unit_3" />
+        <activity android:name=".OS_activities.os_unit_2" />
+        <activity android:name=".OS_activities.os_unit_1" />
+        <activity android:name=".graphics_activities.graphics_unit_5" />
+        <activity android:name=".graphics_activities.graphics_unit_4" />
+        <activity android:name=".graphics_activities.graphics_unit_3" />
+        <activity android:name=".graphics_activities.graphics_unit_2" />
+        <activity android:name=".graphics_activities.graphics_unit_1" />
+        <activity android:name=".conam_activities.conam_Unit_5" />
+        <activity android:name=".conam_activities.conam_Unit_4" />
+        <activity android:name=".conam_activities.conam_Unit_3" />
+        <activity android:name=".conam_activities.conam_Unit_2" />
+        <activity android:name=".conam_activities.conam_Unit_1" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
