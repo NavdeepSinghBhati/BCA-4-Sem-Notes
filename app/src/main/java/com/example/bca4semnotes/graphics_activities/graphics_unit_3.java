@@ -14,6 +14,6 @@ PDFView pdf_graphics_unit3;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_graphics_unit_3);
         pdf_graphics_unit3 = findViewById(R.id.pdf_graphics_unit3);
-        pdf_graphics_unit3.fromAsset("BCA414_UNIT_3_Rajni_Verma.pdf").load();
+        pdf_graphics_unit3.fromAsset("Graphics_Unit_3.pdf").load();
     }
 }

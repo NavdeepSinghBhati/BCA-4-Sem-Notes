@@ -14,6 +14,6 @@ PDFView pdf_vb_unit3;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vbnet__unit_3);
         pdf_vb_unit3 = findViewById(R.id.pdf_vb_unit3);
-        pdf_vb_unit3.fromAsset("VB_Unit_2.pdf").load();
+        pdf_vb_unit3.fromAsset("VB_Unit_3.pdf").load();
     }
 }
