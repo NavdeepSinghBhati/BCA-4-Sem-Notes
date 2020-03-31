@@ -29,11 +29,19 @@
         android:src="@drawable/mohit"
         android:layout_width="match_parent"
         android:layout_height="250dp"/>
-        <TextView
-           android:layout_marginTop="230dp"
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="152dp"
+                android:layout_height="152dp"
+                android:layout_marginTop="134dp"
+                android:src="@drawable/mohit"
+                />
+
+            <TextView
+           android:layout_marginTop="250dp"
             android:textSize="18dp"
-            android:textStyle="bold"
-            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="145dp"
+                android:textStyle="bold"
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Mohit Singh Rajpurohit" />
@@ -54,15 +62,19 @@
         <de.hdodenhof.circleimageview.CircleImageView
             android:layout_width="152dp"
             android:layout_height="152dp"
-            android:src="@drawable/mohit"
+            android:layout_marginTop="134dp"
+            android:src="@drawable/navdeep"
             />
+
+
         <TextView
-            android:layout_marginTop="230dp"
+            android:layout_marginTop="250dp"
             android:textSize="18dp"
+            android:layout_marginLeft="149dp"
             android:textStyle="bold"
-            android:layout_centerHorizontal="true"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+
             android:text="Navdeep Singh Bhati" />
     </RelativeLayout>
     <TextView
@@ -78,10 +90,18 @@
             android:layout_width="match_parent"
             android:layout_height="250dp"/>
 
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="152dp"
+            android:layout_height="152dp"
+            android:layout_marginTop="134dp"
+            android:src="@drawable/nabeel"
+            />
+
         <TextView
-            android:layout_marginTop="230dp"
+            android:layout_marginTop="250dp"
             android:textSize="18dp"
-            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="145dp"
+            android:textStyle="bold"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Nabeel Meher" />
