@@ -62,7 +62,7 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         suitCaseAdapter caseAdapter= unitList.get(position);
         holder.unitname.setText(caseAdapter.getName());
-        holder.imageView_unit.setImageResource(caseAdapter.getImage());
+     //   holder.imageView_unit.setImageResource(caseAdapter.getImage());
     }
 
 
@@ -73,12 +73,12 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
 
     public class  ViewHolder extends RecyclerView.ViewHolder implements  View.OnClickListener{
         TextView unitname;
-        ImageView imageView_unit;
+        //ImageView imageView_unit;
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
             itemView.setOnClickListener(this);
             unitname=itemView.findViewById(R.id.textviewRecyle);
-            imageView_unit=itemView.findViewById(R.id.imageRecyleview);
+           // imageView_unit=itemView.findViewById(R.id.imageRecyleview);
         }
 
         @Override
