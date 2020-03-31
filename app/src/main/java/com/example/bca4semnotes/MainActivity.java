@@ -6,7 +6,9 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
 import android.view.MenuItem;
 
 import com.example.bca4semnotes.Fragments.computer_architecture;
@@ -73,5 +75,22 @@ public class MainActivity extends AppCompatActivity {
             ft.replace(R.id.fragment,fragment);
 
         ft.commit();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.upermenu,menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+switch (item.getItemId()){
+    case R.id.about:
+        Intent i = new Intent(MainActivity.this,Main2Activity_abt.class);
+        startActivity(i);
+
+        break;}
+        return super.onOptionsItemSelected(item);
     }
 }
