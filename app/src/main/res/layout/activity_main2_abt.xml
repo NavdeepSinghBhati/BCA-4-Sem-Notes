@@ -6,111 +6,141 @@
     android:layout_height="match_parent"
     tools:context=".Main2Activity_abt"
     android:orientation="vertical">
-<TextView
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:text="Creators"
-    android:textStyle="bold"
-    android:textSize="20dp"
-    android:textColor="#2196F3"/>
+
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-        <RelativeLayout
-        android:id="@+id/relativeimg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-    <ImageView
-        android:id="@+id/relimg"
-        android:src="@drawable/mohit"
-        android:layout_width="match_parent"
-        android:layout_height="250dp"/>
+
+            android:layout_width="match_parent"
+            app:cardElevation="8dp"
+            app:cardCornerRadius="5dp"
+            android:clickable="true"
+            app:cardUseCompatPadding="true"
+            android:foreground="@drawable/ripple"
+            android:layout_height="wrap_content">
+
+
+            android:layout_height="wrap_content"
+            android:text="Creators"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#2196F3"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+         <ImageView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:id="@+id/nav_header"
+             android:src="@drawable/navdeep_header"/>
             <de.hdodenhof.circleimageview.CircleImageView
-                android:layout_width="152dp"
-                android:layout_height="152dp"
-                android:layout_marginTop="134dp"
-                android:src="@drawable/mohit"
-                />
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:id="@+id/nav_img"
+                android:layout_marginTop="110dp"
+                android:src="@drawable/navsa"/>
 
-            <TextView
-           android:layout_marginTop="250dp"
-            android:textSize="18dp"
-            android:layout_marginLeft="145dp"
-                android:textStyle="bold"
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/navdeep_singh_bhati"
+                    android:layout_toRightOf="@+id/nav_img"
+                    android:layout_marginTop="165dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/black"
+                    android:layout_toEndOf="@+id/nav_img" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/project_developer"
+                    android:layout_toRightOf="@+id/nav_img"
+                    android:layout_marginTop="180dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/black"
+                    android:layout_toEndOf="@+id/nav_img" />
+            </RelativeLayout>
 
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Mohit Singh Rajpurohit" />
-    </RelativeLayout>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mohitintro"/>
-    <RelativeLayout
-        android:id="@+id/relativeimg2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <ImageView
-            android:id="@+id/relimg2"
-            android:src="@drawable/navdeep"
-            android:layout_width="match_parent"
-            android:layout_height="250dp"/>
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="152dp"
-            android:layout_height="152dp"
-            android:layout_marginTop="134dp"
-            android:src="@drawable/navdeep"
-            />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/nab_header"
+                    android:src="@drawable/gilbert_header"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:id="@+id/nab_pic"
+                    android:layout_marginTop="110dp"
+                    android:src="@drawable/nabzzzzz"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nabeel_mehar"
+                    android:layout_toRightOf="@+id/nab_pic"
+                    android:layout_marginTop="165dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/black"
+                    android:layout_toEndOf="@+id/nab_pic" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/project_developer"
+                    android:layout_toRightOf="@+id/nab_pic"
+                    android:layout_marginTop="180dp"
+                    android:layout_marginLeft="10dp"
+                    android:textColor="@android:color/black"
+                    android:layout_toEndOf="@+id/nab_pic" />
+            </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_marginTop="50dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:scaleType="fitXY"
+                        android:id="@+id/mohit_header"
+                        android:src="@drawable/calvin_header"/>
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:id="@+id/mohit_img"
+                        android:layout_marginTop="48dp"
+                        android:src="@drawable/mohit"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/mohit_singh_rajpurohit"
+                        android:layout_toRightOf="@+id/mohit_img"
+                        android:layout_marginTop="105dp"
+                        android:textStyle="bold"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@android:color/black"
+                        android:layout_toEndOf="@+id/mohit_img" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/project_developer"
+                        android:layout_toRightOf="@+id/mohit_img"
+                        android:layout_marginTop="120dp"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@android:color/black"
+                        android:layout_toEndOf="@+id/mohit_img"
+                        android:paddingBottom="60dp"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
 
 
-        <TextView
-            android:layout_marginTop="250dp"
-            android:textSize="18dp"
-            android:layout_marginLeft="149dp"
-            android:textStyle="bold"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-
-            android:text="Navdeep Singh Bhati" />
-    </RelativeLayout>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mohitintro"/>
-    <RelativeLayout
-        android:id="@+id/relativeimg3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
-        <ImageView
-            android:id="@+id/relimg3"
-            android:layout_width="match_parent"
-            android:layout_height="250dp"/>
-
-        <de.hdodenhof.circleimageview.CircleImageView
-            android:layout_width="152dp"
-            android:layout_height="152dp"
-            android:layout_marginTop="134dp"
-            android:src="@drawable/nabeel"
-            />
-
-        <TextView
-            android:layout_marginTop="250dp"
-            android:textSize="18dp"
-            android:layout_marginLeft="145dp"
-            android:textStyle="bold"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Nabeel Meher" />
-    </RelativeLayout>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/mohitintro"/>
-    </LinearLayout>
     </ScrollView>
 </LinearLayout>
