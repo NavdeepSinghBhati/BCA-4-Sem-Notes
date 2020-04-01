@@ -35,11 +35,11 @@ public class vbnet_fragment extends Fragment {
 
         recyclerView = view.findViewById(R.id.recyleView_vbnet);
 
-        addData(R.drawable.ic_launcher_background, "VB.net UNIT 1");
-        addData(R.drawable.ic_launcher_background, "VB.net UNIT 2");
-        addData(R.drawable.ic_launcher_background, "VB.net UNIT 3");
-        addData(R.drawable.ic_launcher_background, "VB.net UNIT 4");
-        addData(R.drawable.ic_launcher_background, "VB.net UNIT 5");
+        addData(R.drawable.ic_launcher_background, "VB.Net Unit 1");
+        addData(R.drawable.ic_launcher_background, "VB.Net Unit 2");
+        addData(R.drawable.ic_launcher_background, "VB.Net Unit 3");
+        addData(R.drawable.ic_launcher_background, "VB.Net Unit 4");
+        addData(R.drawable.ic_launcher_background, "VB.Net Unit 5");
 
         RecycleViewAdapter adapter = new RecycleViewAdapter(view.getContext(), arrlist);
 

@@ -35,11 +35,11 @@ public class graphics_fragment extends Fragment {
 
         recyclerView=view.findViewById(R.id.recyleView_graphics);
 
-        addData(R.drawable.ic_launcher_background,"GRAPHICS UNIT 1");
-        addData(R.drawable.ic_launcher_background,"GRAPHICS UNIT 2");
-        addData(R.drawable.ic_launcher_background,"GRAPHICS UNIT 3");
-        addData(R.drawable.ic_launcher_background,"GRAPHICS UNIT 4");
-        addData(R.drawable.ic_launcher_background,"GRAPHICS UNIT 5");
+        addData(R.drawable.ic_launcher_background,"Graphics Unit 1");
+        addData(R.drawable.ic_launcher_background,"Graphics Unit 2");
+        addData(R.drawable.ic_launcher_background,"Graphics Unit 3");
+        addData(R.drawable.ic_launcher_background,"Graphics Unit 4");
+        addData(R.drawable.ic_launcher_background,"Graphics Unit 5");
 
         RecycleViewAdapter adapter= new RecycleViewAdapter(view.getContext(),arrlist);
 

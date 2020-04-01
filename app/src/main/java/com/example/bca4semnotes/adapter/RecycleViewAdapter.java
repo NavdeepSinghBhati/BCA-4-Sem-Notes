@@ -91,23 +91,23 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
 
 
             if(positon==0){
-                if (name=="COA UNIT 1"){
+                if (name=="COA Unit 1"){
                     Intent intent= new Intent(context, Unit1_COA.class);
                     context.startActivity(intent);
                 }//intent passiong for conom
-                else if (name=="GRAPHICS UNIT 1"){
+                else if (name=="Graphics Unit 1"){
                     Intent intent= new Intent(context, graphics_unit_1.class);
                     context.startActivity(intent);
                 }
-                else if (name=="OS UNIT 1"){
+                else if (name=="OS Unit 1"){
                     Intent intent= new Intent(context, os_unit_1.class);
                     context.startActivity(intent);
                 }
-                else if (name=="CONAM UNIT 1"){
+                else if (name=="CONAM Unit 1"){
                     Intent intent= new Intent(context, conam_Unit_1.class);
                     context.startActivity(intent);
                 }
-                else if (name=="VB.net UNIT 1"){
+                else if (name=="VB.Net Unit 1"){
                     Intent intent= new Intent(context, vbnet_Unit_1.class);
                     context.startActivity(intent);
                 }
@@ -115,23 +115,23 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
             }
 
             else if (positon==1) {
-                if(name=="COA UNIT 2"){
+                if(name=="COA Unit 2"){
                     Intent intent= new Intent(context, unit2_coa.class);
                     context.startActivity(intent);
                 }
-                else if (name=="GRAPHICS UNIT 2"){
+                else if (name=="Graphics Unit 2"){
                     Intent intent= new Intent(context, graphics_unit_2.class);
                     context.startActivity(intent);
                 }
-                else if (name=="OS UNIT 2"){
+                else if (name=="OS Unit 2"){
                     Intent intent= new Intent(context, os_unit_2.class);
                     context.startActivity(intent);
                 }
-                else if (name=="CONAM UNIT 2"){
+                else if (name=="CONAM Unit 2"){
                     Intent intent= new Intent(context, conam_Unit_2.class);
                     context.startActivity(intent);
                 }
-                else if (name=="VB.net UNIT 2"){
+                else if (name=="VB.Net Unit 2"){
                     Intent intent= new Intent(context, vbnet_Unit_2.class);
                     context.startActivity(intent);
                 }
@@ -140,23 +140,23 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
             }
 
             else if (positon==2) {
-                if(name=="COA UNIT 3"){
+                if(name=="COA Unit 3"){
                     Intent intent= new Intent(context, unit3_coa.class);
                     context.startActivity(intent);
                 }
-                else if (name=="GRAPHICS UNIT 3"){
+                else if (name=="Graphics Unit 3"){
                     Intent intent= new Intent(context, graphics_unit_3.class);
                     context.startActivity(intent);
                 }
-                else if (name=="OS UNIT 3"){
+                else if (name=="OS Unit 3"){
                     Intent intent= new Intent(context, os_unit_3.class);
                     context.startActivity(intent);
                 }
-                else if (name=="CONAM UNIT 3"){
+                else if (name=="CONAM Unit 3"){
                     Intent intent= new Intent(context, conam_Unit_3.class);
                     context.startActivity(intent);
                 }
-                else if (name=="VB.net UNIT 3"){
+                else if (name=="VB.Net Unit 3"){
                     Intent intent= new Intent(context, vbnet_Unit_3.class);
                     context.startActivity(intent);
                 }
@@ -165,23 +165,23 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
             }
 
             else if (positon==3) {
-                if(name=="COA UNIT 4"){
+                if(name=="COA Unit 4"){
                     Intent intent= new Intent(context, unit4_coa.class);
                     context.startActivity(intent);
                 }
-                else if (name=="GRAPHICS UNIT 4"){
+                else if (name=="Graphics Unit 4"){
                     Intent intent= new Intent(context, graphics_unit_4.class);
                     context.startActivity(intent);
                 }
-                else if (name=="OS UNIT 4"){
+                else if (name=="OS Unit 4"){
                     Intent intent= new Intent(context, os_unit_4.class);
                     context.startActivity(intent);
                 }
-                else if (name=="CONAM UNIT 4"){
+                else if (name=="CONAM Unit 4"){
                     Intent intent= new Intent(context, conam_Unit_4.class);
                     context.startActivity(intent);
                 }
-                else if (name=="VB.net UNIT 4"){
+                else if (name=="VB.Net Unit 4"){
                     Intent intent= new Intent(context, vbnet_Unit_4.class);
                     context.startActivity(intent);
                 }
@@ -191,23 +191,23 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
             }
 
             else if (positon==4) {
-                if(name=="COA UNIT 5"){
+                if(name=="COA Unit 5"){
                     Intent intent= new Intent(context, unit5_coa.class);
                     context.startActivity(intent);
                 }
-                else if (name=="GRAPHICS UNIT 5"){
+                else if (name=="Graphics Unit 5"){
                     Intent intent= new Intent(context, graphics_unit_5.class);
                     context.startActivity(intent);
                 }
-                else if (name=="OS UNIT 5"){
+                else if (name=="OS Unit 5"){
                     Intent intent= new Intent(context, os_unit_5.class);
                     context.startActivity(intent);
                 }
-                else if (name=="CONAM UNIT 5"){
+                else if (name=="CONAM Unit 5"){
                     Intent intent= new Intent(context, conam_Unit_5.class);
                     context.startActivity(intent);
                 }
-                else if (name=="VB.net UNIT 5"){
+                else if (name=="VB.Net Unit 5"){
                     Intent intent= new Intent(context, vbnet_Unit_5.class);
                     context.startActivity(intent);
                 }

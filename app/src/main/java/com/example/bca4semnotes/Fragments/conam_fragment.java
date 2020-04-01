@@ -35,11 +35,11 @@ public class conam_fragment extends Fragment {
 
         recyclerView=view.findViewById(R.id.recyleView_conam);
 
-        addData(R.drawable.ic_launcher_background,"CONAM UNIT 1");
-        addData(R.drawable.ic_launcher_background,"CONAM UNIT 2");
-        addData(R.drawable.ic_launcher_background,"CONAM UNIT 3");
-        addData(R.drawable.ic_launcher_background,"CONAM UNIT 4");
-        addData(R.drawable.ic_launcher_background,"CONAM UNIT 5");
+        addData(R.drawable.ic_launcher_background,"CONAM Unit 1");
+        addData(R.drawable.ic_launcher_background,"CONAM Unit 2");
+        addData(R.drawable.ic_launcher_background,"CONAM Unit 3");
+        addData(R.drawable.ic_launcher_background,"CONAM Unit 4");
+        addData(R.drawable.ic_launcher_background,"CONAM Unit 5");
 
         RecycleViewAdapter adapter= new RecycleViewAdapter(view.getContext(),arrlist);
 
