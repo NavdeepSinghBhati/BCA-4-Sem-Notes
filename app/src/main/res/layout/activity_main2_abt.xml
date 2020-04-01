@@ -72,6 +72,45 @@
                     android:layout_marginLeft="10dp"
                     android:textColor="@android:color/black"
                     android:layout_toEndOf="@+id/nav_img" />
+
+
+            <TextView
+                android:id="@+id/linkedIn_navdeep"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/linkedIn_navdeep"
+                android:layout_toRightOf="@+id/nav_img"
+                android:textStyle="bold"
+                android:layout_marginTop="205dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
+            <TextView
+                android:id="@+id/send_email_nav"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/send_email_navdeep"
+                android:textStyle="bold"
+                android:layout_toRightOf="@+id/linkedIn_navdeep"
+                android:layout_marginTop="205dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black"
+                android:layout_toEndOf="@+id/linkedIn_navdeep" />
+
+            <TextView
+                android:id="@+id/github_navdeep"
+                android:layout_width="wrap_content"
+                android:layout_toRightOf="@id/send_email_nav"
+                android:layout_height="wrap_content"
+                android:text="@string/github_navdeep"
+                android:textStyle="bold"
+                android:layout_marginTop="205dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="18sp"
+                android:textColor="@android:color/black" />
+
             </RelativeLayout>
 
             <RelativeLayout
@@ -108,6 +147,43 @@
                     android:layout_marginLeft="10dp"
                     android:textColor="@android:color/black"
                     android:layout_toEndOf="@+id/nab_pic" />
+
+                <TextView
+                    android:id="@+id/send_email_nabeel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/linkedIn_nabeel"
+                    android:textStyle="bold"
+                    android:layout_toRightOf="@+id/nab_pic"
+                    android:layout_marginTop="205dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black"
+                    android:layout_toEndOf="@+id/nab_pic" />
+
+                <TextView
+                    android:id="@+id/github_nabeel"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/send_email_nabeel"
+                    android:layout_height="wrap_content"
+                    android:text="@string/github_nabeel"
+                    android:textStyle="bold"
+                    android:layout_marginTop="205dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black" />
+
+                <TextView
+                    android:id="@+id/website_nabeel"
+                    android:layout_width="wrap_content"
+                    android:layout_toRightOf="@id/github_nabeel"
+                    android:layout_height="wrap_content"
+                    android:text="@string/website_nabeel"
+                    android:textStyle="bold"
+                    android:layout_marginTop="205dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="18sp"
+                    android:textColor="@android:color/black" />
             </RelativeLayout>
 
                 <RelativeLayout
@@ -147,6 +223,31 @@
                         android:textColor="@android:color/black"
                         android:layout_toEndOf="@+id/mohit_img"
                         android:paddingBottom="60dp"/>
+
+                    <TextView
+                        android:id="@+id/send_email_mohit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/send_email_mohit"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@+id/mohit_img"
+                        android:layout_marginTop="145dp"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="19sp"
+                        android:textColor="@android:color/black"
+                        android:layout_toEndOf="@+id/mohit_img" />
+
+                    <TextView
+                        android:id="@+id/github_mohit"
+                        android:layout_width="wrap_content"
+                        android:layout_toRightOf="@id/send_email_mohit"
+                        android:layout_height="wrap_content"
+                        android:text="@string/github_mohit"
+                        android:textStyle="bold"
+                        android:layout_marginTop="145dp"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="19sp"
+                        android:textColor="@android:color/black" />
                 </RelativeLayout>
 
         </LinearLayout>
