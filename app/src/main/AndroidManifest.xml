@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.bca4semnotes" >
+    package="com.example.bca4semnotes">
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/app_icon"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name=".syllabus.VB_syllabus" />
+        android:theme="@style/AppTheme">
+        <activity android:name=".syll.coa_syll"></activity>
+        <activity android:name=".syll.graphics_syll" />
+        <activity android:name=".syll.os_syll" />
+        <activity android:name=".syll.conam_syll" />
+        <activity android:name=".syll.vb_syll" />
+        <activity android:name=".splashActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".Main2Activity_abt" />
         <activity
             android:name=".COA_activities.Unit1_COA"
@@ -89,12 +101,8 @@
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|screenSize"
-            android:theme="@style/MainTheme" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+            android:theme="@style/MainTheme">
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

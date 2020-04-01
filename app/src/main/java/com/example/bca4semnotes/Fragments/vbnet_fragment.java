@@ -23,6 +23,7 @@ public class vbnet_fragment extends Fragment {
     private RecyclerView recyclerView;
     ArrayList<suitCaseAdapter> arrlist = new ArrayList<>();
     public vbnet_fragment() {
+
         // Required empty public constructor
     }
 
@@ -60,4 +61,6 @@ public class vbnet_fragment extends Fragment {
         arrlist.add(suitCaseAdapter);
 
         }
+
+
 }

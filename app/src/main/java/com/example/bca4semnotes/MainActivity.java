@@ -8,8 +8,10 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.Toast;
 
 import com.example.bca4semnotes.Fragments.computer_architecture;
 import com.example.bca4semnotes.Fragments.conam_fragment;
@@ -21,7 +23,7 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 public class MainActivity extends AppCompatActivity {
 
     BottomNavigationView BNV;
-    int flag=0;
+    int flag=0,flag2=0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -93,4 +95,24 @@ switch (item.getItemId()){
         break;}
         return super.onOptionsItemSelected(item);
     }
+
+    @Override
+    public void onBackPressed() {
+        if (flag2==0){
+            Toast.makeText(this, "Press again to Exit.", Toast.LENGTH_SHORT).show();
+            flag2=1;
+
+
+            new Handler().postDelayed(new Runnable() {
+                @Override
+                public void run() {
+                    flag2=0;
+                }
+            },1000);
+        } else {
+            super.onBackPressed();
+        }
+    }
+
+
 }

@@ -11,6 +11,9 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+
+import com.example.bca4semnotes.syll.*;
+
 import com.example.bca4semnotes.COA_activities.Unit1_COA;
 import com.example.bca4semnotes.COA_activities.unit2_coa;
 import com.example.bca4semnotes.COA_activities.unit3_coa;
@@ -218,23 +221,23 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
 
             else if (positon==5) {
                 if(name=="COA Syllabus"){
-                    Intent intent= new Intent(context, unit5_coa.class);
+                    Intent intent= new Intent(context,coa_syll.class);
                     context.startActivity(intent);
                 }
-                else if (name=="GRAPHICS Syllabus"){
-                    Intent intent= new Intent(context, graphics_unit_5.class);
+                else if (name=="Graphics Syllabus"){
+                    Intent intent= new Intent(context, graphics_syll.class);
                     context.startActivity(intent);
                 }
                 else if (name=="OS Syllabus"){
-                    Intent intent= new Intent(context, os_unit_5.class);
+                    Intent intent= new Intent(context, os_syll.class);
                     context.startActivity(intent);
                 }
                 else if (name=="CONAM Syllabus"){
-                    Intent intent= new Intent(context, conam_Unit_5.class);
+                    Intent intent= new Intent(context, conam_syll.class);
                     context.startActivity(intent);
                 }
                 else if (name=="VB Syllabus"){
-                    Intent intent= new Intent(context, vbnet_Unit_5.class);
+                    Intent intent= new Intent(context, vb_syll.class);
                     context.startActivity(intent);
                 }
 
