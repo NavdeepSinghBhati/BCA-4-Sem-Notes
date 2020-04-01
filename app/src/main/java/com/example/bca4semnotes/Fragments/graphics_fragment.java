@@ -40,7 +40,7 @@ public class graphics_fragment extends Fragment {
         addData(R.drawable.ic_launcher_background,"GRAPHICS UNIT 3");
         addData(R.drawable.ic_launcher_background,"GRAPHICS UNIT 4");
         addData(R.drawable.ic_launcher_background,"GRAPHICS UNIT 5");
-
+        addData(R.drawable.ic_launcher_background,"GRAPHICS Syllabus");
         RecycleViewAdapter adapter= new RecycleViewAdapter(view.getContext(),arrlist);
 
 

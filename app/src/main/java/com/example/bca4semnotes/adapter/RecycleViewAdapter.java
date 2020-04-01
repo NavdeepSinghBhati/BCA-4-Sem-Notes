@@ -68,7 +68,7 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
 
     @Override
     public int getItemCount() {
-        return 5;
+        return 6;
     }
 
     public class  ViewHolder extends RecyclerView.ViewHolder implements  View.OnClickListener{
@@ -215,6 +215,31 @@ public class RecycleViewAdapter extends RecyclerView.Adapter<RecycleViewAdapter.
 
             }
 
+
+            else if (positon==5) {
+                if(name=="COA Syllabus"){
+                    Intent intent= new Intent(context, unit5_coa.class);
+                    context.startActivity(intent);
+                }
+                else if (name=="GRAPHICS Syllabus"){
+                    Intent intent= new Intent(context, graphics_unit_5.class);
+                    context.startActivity(intent);
+                }
+                else if (name=="OS Syllabus"){
+                    Intent intent= new Intent(context, os_unit_5.class);
+                    context.startActivity(intent);
+                }
+                else if (name=="CONAM Syllabus"){
+                    Intent intent= new Intent(context, conam_Unit_5.class);
+                    context.startActivity(intent);
+                }
+                else if (name=="VB Syllabus"){
+                    Intent intent= new Intent(context, vbnet_Unit_5.class);
+                    context.startActivity(intent);
+                }
+
+
+            }
 
         }//on click end
     }

@@ -40,7 +40,7 @@ public class conam_fragment extends Fragment {
         addData(R.drawable.ic_launcher_background,"CONAM UNIT 3");
         addData(R.drawable.ic_launcher_background,"CONAM UNIT 4");
         addData(R.drawable.ic_launcher_background,"CONAM UNIT 5");
-
+        addData(R.drawable.ic_launcher_background,"CONAM Syllabus");
         RecycleViewAdapter adapter= new RecycleViewAdapter(view.getContext(),arrlist);
 
 

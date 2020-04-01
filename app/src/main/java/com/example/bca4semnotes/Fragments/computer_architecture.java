@@ -42,7 +42,7 @@ public class computer_architecture extends Fragment {
         addData(R.drawable.ic_launcher_background,"COA UNIT 3");
         addData(R.drawable.ic_launcher_background,"COA UNIT 4");
         addData(R.drawable.ic_launcher_background,"COA UNIT 5");
-
+        addData(R.drawable.ic_launcher_background,"COA Syllabus");
         RecycleViewAdapter adapter= new RecycleViewAdapter(view.getContext(),arrlist);
 
 

@@ -40,7 +40,7 @@ public class os_fragment extends Fragment {
         addData(R.drawable.ic_launcher_background,"OS UNIT 3");
         addData(R.drawable.ic_launcher_background,"OS UNIT 4");
         addData(R.drawable.ic_launcher_background,"OS UNIT 5");
-
+        addData(R.drawable.ic_launcher_background,"OS Syllabus");
         RecycleViewAdapter adapter= new RecycleViewAdapter(view.getContext(),arrlist);
 
 

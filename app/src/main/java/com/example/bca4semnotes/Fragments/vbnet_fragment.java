@@ -40,7 +40,7 @@ public class vbnet_fragment extends Fragment {
         addData(R.drawable.ic_launcher_background, "VB.net UNIT 3");
         addData(R.drawable.ic_launcher_background, "VB.net UNIT 4");
         addData(R.drawable.ic_launcher_background, "VB.net UNIT 5");
-
+        addData(R.drawable.ic_launcher_background,"VB Syllabus");
         RecycleViewAdapter adapter = new RecycleViewAdapter(view.getContext(), arrlist);
 
 
