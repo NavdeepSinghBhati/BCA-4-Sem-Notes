@@ -2,21 +2,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item android:id="@+id/item1"
-        android:title="VB.NET"
-        android:icon="@drawable/abc_vector_test"/>
+       android:icon="@drawable/vb_icon"
+        android:title="VB.Net"
+        />
 
     <item android:id="@+id/item2"
         android:title="CONAM"
-        android:icon="@drawable/abc_vector_test"/>
+        android:icon="@drawable/conam_icon"/>
     <item android:id="@+id/item3"
         android:title="OS"
-        android:icon="@drawable/abc_vector_test"/>
+        android:icon="@drawable/os_icon"/>
 
     <item android:id="@+id/item4"
         android:title="Graphics"
-        android:icon="@drawable/abc_vector_test"/>
+        android:icon="@drawable/graphics_icon"/>
     <item android:id="@+id/item5"
         android:title="COA"
-        android:icon="@drawable/abc_vector_test"/>
+        android:icon="@drawable/coa_icon"/>
 
 </menu>

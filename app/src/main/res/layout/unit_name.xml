@@ -2,7 +2,7 @@
 
 
 <androidx.cardview.widget.CardView android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="88dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:padding="20dp"
     android:paddingLeft="10dp"
@@ -19,17 +19,19 @@
             >
 
             <TextView
-                android:layout_centerVertical="true"
                 android:id="@+id/textviewRecyle"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:text=" unit name goes here"
                 android:textSize="25sp"
                 android:padding="10dp"
-                android:fontFamily="sans-serif-thin"
+                android:fontFamily="casual"
                 android:textStyle="bold"
                 android:textColor="@android:color/black"
                 android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:gravity="center"
 
                 />
 

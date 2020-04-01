@@ -33,6 +33,9 @@
             android:textStyle="bold"
             android:textSize="20dp"
             android:textColor="#2196F3"
+            android:gravity="center"
+            android:fontFamily="serif"
+            android:layout_margin="5dp"
             android:layout_width="match_parent" />
         <RelativeLayout
             android:layout_width="match_parent"
