@@ -37,11 +37,11 @@ public class computer_architecture extends Fragment {
 
         recyclerView=view.findViewById(R.id.recyleView_com_arch);
 
-        addData(R.drawable.ic_launcher_background,"COA UNIT 1");
-        addData(R.drawable.ic_launcher_background,"COA UNIT 2");
-        addData(R.drawable.ic_launcher_background,"COA UNIT 3");
-        addData(R.drawable.ic_launcher_background,"COA UNIT 4");
-        addData(R.drawable.ic_launcher_background,"COA UNIT 5");
+        addData(R.drawable.ic_launcher_background,"COA Unit 1");
+        addData(R.drawable.ic_launcher_background,"COA Unit 2");
+        addData(R.drawable.ic_launcher_background,"COA Unit 3");
+        addData(R.drawable.ic_launcher_background,"COA Unit 4");
+        addData(R.drawable.ic_launcher_background,"COA Unit 5");
         addData(R.drawable.ic_launcher_background,"COA Syllabus");
         RecycleViewAdapter adapter= new RecycleViewAdapter(view.getContext(),arrlist);
 

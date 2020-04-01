@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.bca4semnotes">
+    package="com.example.bca4semnotes" >
 
     <application
         android:allowBackup="true"
@@ -8,8 +8,9 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".Main2Activity_abt"></activity>
+        android:theme="@style/AppTheme" >
+        <activity android:name=".syllabus.VB_syllabus" />
+        <activity android:name=".Main2Activity_abt" />
         <activity
             android:name=".COA_activities.Unit1_COA"
             android:configChanges="orientation|screenSize" />
@@ -88,7 +89,7 @@
         <activity
             android:name=".MainActivity"
             android:configChanges="orientation|screenSize"
-            android:theme="@style/MainTheme">
+            android:theme="@style/MainTheme" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
