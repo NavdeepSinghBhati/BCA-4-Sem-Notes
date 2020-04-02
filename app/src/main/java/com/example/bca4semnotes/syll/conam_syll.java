@@ -9,6 +9,7 @@ import com.github.barteksc.pdfviewer.PDFView;
 
 public class conam_syll extends AppCompatActivity {
 PDFView pdf_conam_syll;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
