@@ -14,6 +14,6 @@ PDFView pdf_vb_syll;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_vb_syll);
         pdf_vb_syll = findViewById(R.id.pdf_vb_syll);
-        pdf_vb_syll.fromAsset("os_syllabus.pdf").load();
+        pdf_vb_syll.fromAsset("vb_syllabus.pdf").load();
     }
 }
