@@ -12,14 +12,13 @@
     <string name="mohit_singh_rajpurohit">Mohit Singh Rajpurohit</string>
 
 <!--    Emails-->
-    <string name="send_email_navdeep"><a href="mailto:nabeel.mehar.khan@gmail.com">Email</a></string>
-    <string name="send_email_nabeel"><a href="mailto:nabeel.mehar.khan@gmail.com">Email</a></string>
-    <string name="send_email_mohit"><a href="mailto:nabeel.mehar.khan@gmail.com">Email</a></string>
+    <string name="send_email_navdeep"><a href="mailto:navdeepsinghbhati2562@gmail.com">Send Email</a></string>
+    <string name="send_email_nabeel"><a href="mailto:nabeel.mehar.khan@gmail.com">Send Email</a></string>
+    <string name="send_email_mohit"><a href="mailto:nabeel.mehar.khan@gmail.com">Send Email</a></string>
 
-<!--LinkedzIn-->
+<!--LinkedIn-->
     <string name="linkedIn_nabeel"><a href="https://www.linkedin.com/in/nabeel-mehar-aaa638151/">LinkedIn</a></string>
     <string name="linkedIn_navdeep"><a href="https://www.linkedin.com/in/navdeep-singh-bhati-b142801a6/">LinkedIn</a></string>
-
 
     <!--  Githubs    -->
 
@@ -28,7 +27,6 @@
     <string name="github_mohit"><a href="https://github.com/moHti">Github</a></string>
 
 <!--    Websites-->
-
     <string name="website_nabeel"><a href="https://nabeelmehar.github.io/">Website</a></string>
 
 
