@@ -9,11 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".syll.coa_syll"></activity>
-        <activity android:name=".syll.graphics_syll" />
-        <activity android:name=".syll.os_syll" />
-        <activity android:name=".syll.conam_syll" />
-        <activity android:name=".syll.vb_syll" />
+        <activity android:name=".syllabus.coa_syll"></activity>
+        <activity android:name=".syllabus.graphics_syll" />
+        <activity android:name=".syllabus.os_syll" />
+        <activity android:name=".syllabus.conam_syll" />
+        <activity android:name=".syllabus.vb_syll" />
         <activity android:name=".splashActivity">
 
             <intent-filter>

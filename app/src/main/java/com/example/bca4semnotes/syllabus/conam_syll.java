@@ -1,4 +1,4 @@
-package com.example.bca4semnotes.syll;
+package com.example.bca4semnotes.syllabus;
 
 import androidx.appcompat.app.AppCompatActivity;
 
