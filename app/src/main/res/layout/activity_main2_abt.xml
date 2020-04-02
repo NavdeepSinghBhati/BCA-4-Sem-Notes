@@ -35,7 +35,7 @@
             android:textColor="#2196F3"
             android:gravity="center"
             android:fontFamily="serif"
-            android:layout_margin="5dp"
+            android:layout_margin="3dp"
             android:layout_width="match_parent" />
         <RelativeLayout
             android:layout_width="match_parent"
@@ -192,7 +192,7 @@
                     android:layout_height="wrap_content">
                     <ImageView
                         android:layout_width="match_parent"
-                        android:layout_height="100dp"
+                        android:layout_height="110dp"
                         android:scaleType="fitXY"
                         android:id="@+id/mohit_header"
                         android:src="@drawable/calvin_header"/>
