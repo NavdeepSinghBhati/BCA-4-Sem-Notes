@@ -12,13 +12,15 @@
     <string name="mohit_singh_rajpurohit">Mohit Singh Rajpurohit</string>
 
 <!--    Emails-->
-    <string name="send_email_navdeep"><a href="mailto:navdeepsinghbhati2562@gmail.com">Send Email</a></string>
-    <string name="send_email_nabeel"><a href="mailto:nabeel.mehar.khan@gmail.com">Send Email</a></string>
-    <string name="send_email_mohit"><a href="mailto:nabeel.mehar.khan@gmail.com">Send Email</a></string>
+    <string name="send_email_navdeep"><a href="mailto:navdeepsinghbhati2562@gmail.com">Email</a></string>
+    <string name="send_email_nabeel"><a href="mailto:nabeel.mehar.khan@gmail.com">Email</a></string>
+    <string name="send_email_mohit"><a href="mailto:mohitrajpurohit236@gmail.com">Email</a></string>
 
 <!--LinkedIn-->
     <string name="linkedIn_nabeel"><a href="https://www.linkedin.com/in/nabeel-mehar-aaa638151/">LinkedIn</a></string>
     <string name="linkedIn_navdeep"><a href="https://www.linkedin.com/in/navdeep-singh-bhati-b142801a6/">LinkedIn</a></string>
+    <string name="linkedIn_mohit"><a href="https://www.linkedin.com/in/mohit-rajpurohit-1722891a6/">LinkedIn</a></string>
+
 
     <!--  Githubs    -->
 
@@ -28,6 +30,9 @@
 
 <!--    Websites-->
     <string name="website_nabeel"><a href="https://nabeelmehar.github.io/">Website</a></string>
+    <string name="website_navdeep"><a href="https://nabeelmehar.github.io/">Website</a></string>
+    <string name="website_mohit"><a href="https://nabeelmehar.github.io/">Website</a></string>
+
 
 
 

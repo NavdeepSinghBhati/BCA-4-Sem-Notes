@@ -43,32 +43,34 @@
 
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="130dp"
             android:id="@+id/nav_header"
             android:src="@drawable/navdeep_header"/>
             <de.hdodenhof.circleimageview.CircleImageView
                 android:layout_width="100dp"
                 android:layout_height="100dp"
                 android:id="@+id/nav_img"
-                android:layout_marginTop="110dp"
+                android:layout_marginTop="80dp"
                 android:src="@drawable/navsa"/>
 
                 <TextView
+                    android:id="@+id/nav_name"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/navdeep_singh_bhati"
                     android:layout_toRightOf="@+id/nav_img"
-                    android:layout_marginTop="165dp"
+                    android:layout_marginTop="133dp"
                     android:textStyle="bold"
                     android:layout_marginLeft="10dp"
                     android:textColor="@android:color/black"
                     android:layout_toEndOf="@+id/nav_img" />
                 <TextView
+                    android:id="@+id/nav_post"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/project_developer"
                     android:layout_toRightOf="@+id/nav_img"
-                    android:layout_marginTop="180dp"
+                    android:layout_marginTop="150dp"
                     android:layout_marginLeft="10dp"
                     android:textColor="@android:color/black"
                     android:layout_toEndOf="@+id/nav_img" />
@@ -81,7 +83,7 @@
                 android:text="@string/linkedIn_navdeep"
                 android:layout_toRightOf="@+id/nav_img"
                 android:textStyle="bold"
-                android:layout_marginTop="205dp"
+                android:layout_marginTop="175dp"
                 android:layout_marginLeft="10dp"
                 android:textSize="18sp"
                 android:textColor="@android:color/black" />
@@ -93,7 +95,8 @@
                 android:text="@string/send_email_navdeep"
                 android:textStyle="bold"
                 android:layout_toRightOf="@+id/linkedIn_navdeep"
-                android:layout_marginTop="205dp"
+                android:layout_below="@+id/nav_post"
+                android:layout_marginTop="4dp"
                 android:layout_marginLeft="10dp"
                 android:textSize="18sp"
                 android:textColor="@android:color/black"
@@ -106,8 +109,9 @@
                 android:layout_height="wrap_content"
                 android:text="@string/github_navdeep"
                 android:textStyle="bold"
-                android:layout_marginTop="205dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:layout_below="@+id/nav_post"
                 android:textSize="18sp"
                 android:textColor="@android:color/black" />
 
@@ -118,14 +122,14 @@
                 android:layout_height="wrap_content">
                 <ImageView
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="140dp"
                     android:id="@+id/nab_header"
                     android:src="@drawable/gilbert_header"/>
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="100dp"
                     android:layout_height="100dp"
                     android:id="@+id/nab_pic"
-                    android:layout_marginTop="110dp"
+                    android:layout_marginTop="90dp"
                     android:src="@drawable/nabzzzzz"/>
 
                 <TextView
@@ -133,7 +137,7 @@
                     android:layout_height="wrap_content"
                     android:text="@string/nabeel_mehar"
                     android:layout_toRightOf="@+id/nab_pic"
-                    android:layout_marginTop="165dp"
+                    android:layout_marginTop="138dp"
                     android:textStyle="bold"
                     android:layout_marginLeft="10dp"
                     android:textColor="@android:color/black"
@@ -143,19 +147,19 @@
                     android:layout_height="wrap_content"
                     android:text="@string/project_developer"
                     android:layout_toRightOf="@+id/nab_pic"
-                    android:layout_marginTop="180dp"
+                    android:layout_marginTop="153dp"
                     android:layout_marginLeft="10dp"
                     android:textColor="@android:color/black"
                     android:layout_toEndOf="@+id/nab_pic" />
 
                 <TextView
-                    android:id="@+id/send_email_nabeel"
+                    android:id="@+id/linkedIn_nabeel"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="@string/linkedIn_nabeel"
                     android:textStyle="bold"
                     android:layout_toRightOf="@+id/nab_pic"
-                    android:layout_marginTop="205dp"
+                    android:layout_marginTop="178dp"
                     android:layout_marginLeft="10dp"
                     android:textSize="18sp"
                     android:textColor="@android:color/black"
@@ -164,11 +168,11 @@
                 <TextView
                     android:id="@+id/github_nabeel"
                     android:layout_width="wrap_content"
-                    android:layout_toRightOf="@id/send_email_nabeel"
+                    android:layout_toRightOf="@id/linkedIn_nabeel"
                     android:layout_height="wrap_content"
                     android:text="@string/github_nabeel"
                     android:textStyle="bold"
-                    android:layout_marginTop="205dp"
+                    android:layout_marginTop="178dp"
                     android:layout_marginLeft="10dp"
                     android:textSize="18sp"
                     android:textColor="@android:color/black" />
@@ -180,15 +184,16 @@
                     android:layout_height="wrap_content"
                     android:text="@string/website_nabeel"
                     android:textStyle="bold"
-                    android:layout_marginTop="205dp"
+                    android:layout_marginTop="178dp"
                     android:layout_marginLeft="10dp"
                     android:textSize="18sp"
                     android:textColor="@android:color/black" />
             </RelativeLayout>
 
                 <RelativeLayout
-                    android:layout_marginTop="50dp"
+                    android:layout_marginTop="7dp"
                     android:layout_width="match_parent"
+                    android:paddingBottom="30dp"
                     android:layout_height="wrap_content">
                     <ImageView
                         android:layout_width="match_parent"
@@ -213,6 +218,9 @@
                         android:layout_marginLeft="10dp"
                         android:textColor="@android:color/black"
                         android:layout_toEndOf="@+id/mohit_img" />
+
+
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
@@ -225,17 +233,30 @@
                         android:paddingBottom="60dp"/>
 
                     <TextView
+                        android:id="@+id/linkedIn_mohit"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/linkedIn_mohit"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@+id/mohit_img"
+                        android:layout_marginTop="145dp"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:layout_toEndOf="@+id/mohit_img" />
+
+                    <TextView
                         android:id="@+id/send_email_mohit"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/send_email_mohit"
                         android:textStyle="bold"
-                        android:layout_toRightOf="@+id/mohit_img"
+                        android:layout_toRightOf="@+id/linkedIn_mohit"
                         android:layout_marginTop="145dp"
                         android:layout_marginLeft="10dp"
-                        android:textSize="19sp"
+                        android:textSize="18sp"
                         android:textColor="@android:color/black"
-                        android:layout_toEndOf="@+id/mohit_img" />
+                        android:layout_toEndOf="@+id/linkedIn_mohit" />
 
                     <TextView
                         android:id="@+id/github_mohit"
@@ -246,7 +267,7 @@
                         android:textStyle="bold"
                         android:layout_marginTop="145dp"
                         android:layout_marginLeft="10dp"
-                        android:textSize="19sp"
+                        android:textSize="18sp"
                         android:textColor="@android:color/black" />
                 </RelativeLayout>
 

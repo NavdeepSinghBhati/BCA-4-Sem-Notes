@@ -25,8 +25,8 @@ public class Main2Activity_abt extends AppCompatActivity {
         TextView linkedInNavdeep = findViewById(R.id.linkedIn_navdeep);
         linkedInNavdeep.setMovementMethod(LinkMovementMethod.getInstance());
 
-        TextView sendEmailNabeel = findViewById(R.id.send_email_nabeel);
-        sendEmailNabeel.setMovementMethod(LinkMovementMethod.getInstance());
+        TextView linkedInNabeel = findViewById(R.id.linkedIn_nabeel);
+        linkedInNabeel.setMovementMethod(LinkMovementMethod.getInstance());
 
         TextView githubNabeel = findViewById(R.id.github_nabeel);
         githubNabeel.setMovementMethod(LinkMovementMethod.getInstance());
@@ -39,5 +39,8 @@ public class Main2Activity_abt extends AppCompatActivity {
 
         TextView githubMohit = findViewById(R.id.github_mohit);
         githubMohit.setMovementMethod(LinkMovementMethod.getInstance());
+
+        TextView linkedInMohit = findViewById(R.id.linkedIn_mohit);
+        linkedInMohit.setMovementMethod(LinkMovementMethod.getInstance());
     }
 }
