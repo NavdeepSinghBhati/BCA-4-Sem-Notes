@@ -2,6 +2,7 @@ package com.example.bca4semnotes;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.pm.ActivityInfo;
 import android.os.Build;
 import android.os.Bundle;
 import android.text.Html;
@@ -42,5 +43,7 @@ public class Main2Activity_abt extends AppCompatActivity {
 
         TextView linkedInMohit = findViewById(R.id.linkedIn_mohit);
         linkedInMohit.setMovementMethod(LinkMovementMethod.getInstance());
+
+        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
     }
 }
